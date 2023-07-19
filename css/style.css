@@ -1,10 +1,36 @@
 @charset 'utf-8';
 
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  height: 100vh;
+  width: 100vw;
+}
+
+main{
+  height: 100vh;
+  position: relative;
+}
+
 body{
   background-image: url(../imagens/fundo-madeira.jpg);
   background-size: cover;
-  min-width: 100vh;
   background-attachment: fixed;
   background-position: center;
 }
 
+.iphone{
+  background-image: url(../imagens/frame-iphone.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  height: 627px;
+  width: 311px;
+}
